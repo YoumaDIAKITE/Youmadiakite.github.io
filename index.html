@@ -1,39 +1,122 @@
 <!Doctype html>
-    <html>
+    <html lang="en">
+
         <head>
             <meta charset="utf-8">
-            <title>Юма</title>
-			<link rel="stylesheet" href="style.css">
+            <title>Отчет по лабораторным работам</title>
+            
+            <link rel="stylesheet" href="style1.css">
+            <script type="text/javascript" src="clock.js"></script>
         </head>
         
-        <body>
-            <h1><center>Дьяките Юма </center></h1>
-			</br>
-			<hr>
-                <h3>Группа: ИДМ-18-02</h3>
-			    <h3>Дисциплина: Интернет-технологии</h3>
-			</br>
-			<hr>
-			<h1>Отчёты по лабораторным работам</h1>
-			</br>
-			<hr>
-            <h2>Лабораторная работа №1</h2>
-			<h3>Тема:"Экосистема разработки программ с открытым кодом"</h3>
-			<p>Создание персональной страницы-отчета на GitHub и работа с git.</p>
-			<hr>
-            <ol>
-            <li><a href=" https://youmadiakite.github.io/">Личная страница на хостинге GitHub</a></li>
-			</ol>
-            <h2>Лабораторная работа №2</h2>
-          <h3>Тема: "Разработка простого веб-приложения"</h3>
-           <h4>РАЗРАБОТКА ПРОСТОГО ВЕБ-ПРИЛОЖЕНИЯ</h4>
-				<p>Проектирование и разработка индивидуального или коллективного веб-приложения (SPA) с использованием HTML, CSS, JavaScript + JSON/XML.</p>
-        <hr>   
-		   <h3>Лабораторная работа №3</h3>
-				<h4>НАСТРОЙКА ЛОКАЛЬНОЙ СЕТИ ПЕРЕДАЧИ ДАННЫХ</h4>
-				<p>Цель данной работы - ознакомиться с принципами работы компьютерных сетей, базовой настройкой сетевого оборудования и статической маршрузитацией.</p>
-											<p>Расчет диапазонов подсетей.</p>
-				
+
+        <body class="gradient" onload="digitalWatch()">
+    <p id="digital_watch" style="float:right; font-size: 32px; font-weight: bold;"></p> 
+                      <div id="main">
+                        <h1> Дьяките Юма</h1>
+                         <h2>ИДМ-18-02 </h2>
+                <h3>Отчеты по лабораторным работам по курсу: </h3>
+                    <h3> "Интернет-технологии"</h3> 
+                    </div> 
             
-        </body>
-    </html>
+                           
+               <div class="topnav">
+               <a class="active" href="Домашняя страница"></a>
+               <a href="#lab1">Лабораторная работа 1</a>
+                       <a href="#lab2">Лабораторная работа 2</a>
+                       <a href="#lab3">Лабораторная работа 3</a>
+                       <a href="#question">Подготовка к экзамену</a>
+               </div>
+                  
+
+
+                  <div id="main">
+            <div class="material" id="lab1">
+                 <h3>Лабораторная работа №1</h3>
+                 <h4>ЭКОСИСТЕМА РАЗРАБОТКИ ПРОГРАММ С ОТКРЫТЫМ КОДОМ</h4>
+                 <p>Создание персональной страницы-отчета на GitHub и работа с git.</p>
+                 <a onclick="javascript:document.getElementById('subMenuTip1').style.display='block'" href="javascript:void(0)">
+                 <h5>Задачи:</h5></a>
+                 <div id="subMenuTip1" class="msg" style="display:none;">
+                    <div class = "text">
+        <p class = "text-center h4"> Экосистема разработки программ с открытым кодом
+        <b><p class = "text-center h6" >Создание персональной страницы-отчета на github и работа с git</b>
+        <p><b>1</b>. Регистрация на GitHub 
+        <p><b>2</b>. Подключиться к репозиторию 
+        <p><b>3.</b> Создать личную страницу 
+        <p><a href="https://github.com/YoumaDIAKITE">Страница пользователя</a>
+        <p><b>4.</b> Создать персональную веб страницу-отчет с использованием html, css, js. 
+        <p><a href = '#'>Персональная страница-отчет. </a>
+        <p><b>5.</b> Загрузить персональную веб страницу-отчет в репозиторий ИДМ-18 
+        по курсу "Интернет-технологии" на GitHub. 
+        <p><a href = '#'>Исходный код на index.html, css и js. </a>
+    </div>
+</div>
+        <a onclick="javascript:document.getElementById('subMenuTip1').style.display='none'" href="javascript:void(0)"></li><p style="text-align: right;">Свернуть</p></a>           
+                    
+                 </div>
+            </div>
+
+
+                <hr>
+            <div class="footer"></div>
+            <div class="material" id="lab2">
+                <h3>Лабораторная работа №2</h3>
+                <h4>РАЗРАБОТКА ПРОСТОГО ВЕБ-ПРИЛОЖЕНИЯ</h4>
+                <p>Проектирование и разработка индивидуального или коллективного веб-приложения (SPA) с использованием HTML, CSS, JavaScript + JSON/XML.</p>
+                 
+                
+                <a onclick="javascript:document.getElementById('subMenuTip3').style.display='block'" href="javascript:void(0)"> 
+                <h5>Задачи:</h5></a>
+                <div id="subMenuTip3" class="msg" style="display:none;">
+                    <div class = "text">
+            <p class = "text-center h4">Разработка простого веб-приложения
+            <b><p class = "text-center h6">Проектирование и разработка индивидуального или коллективного веб-приложения с использованием 
+            html,css,js + json,xml</b>
+            <p><b>1.</b> Собрать команду для разработки веб-приложения (SPA) и распределить роли. 
+            <p><a href="https://github.com/stankin/inet-2018/tree/master/IDM-18-02">Страница команд. </a>
+            <p><b>2.</b> Разработать макет страницы веб-приложения.
+            <p><a href="#">Макет страницы. </a>
+            <p><b>3.</b> Прописать стили страницы. Исходный код на css. 
+            <p><b>4.</b> Прописать js функционал и реализовать возможность чтения json. 
+            <p>Исходный код на js и json. 
+        </div>
+    </div>
+        <a onclick="javascript:document.getElementById('subMenuTip3').style.display='none'" href="javascript:void(0)"><p style="text-align: right;">Свернуть</p></a>           
+                
+                </div>        
+            </div>
+
+
+
+            <hr>
+            <div class="footer"></div>
+            <div class="material" id="lab3">
+                <h3>Лабораторная работа №3</h3>
+                <h4>НАСТРОЙКА ЛОКАЛЬНОЙ СЕТИ ПЕРЕДАЧИ ДАННЫХ</h4>
+                <a onclick="javascript:document.getElementById('subMenuTip4').style.display='block'" href="javascript:void(0)">
+                <p>Настройка коммутаторов и маршрутизаторов</p></a>
+                <div id="subMenuTip4" class="msg" style="display:none;">                                  
+            </div>
+            </div>
+
+
+
+            <hr>
+            <div class="footer"></div>
+            <div class="material" id="question">
+                <h3>Подготовка в экзамену</h3>
+                <h4>Я выбрала <a href="https://github.com/stankin/inet-2018/wiki/Билет-5">Билет 5</a></h4>
+
+                <h4>Здесь скоро будет ответ...</h4>
+                
+                                                                  
+                                    
+                
+                </div>
+                 </div>    
+                    </div> 
+                       </div>                       
+
+           </body>
+           </html>
