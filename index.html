@@ -96,7 +96,91 @@
                 <h4>НАСТРОЙКА ЛОКАЛЬНОЙ СЕТИ ПЕРЕДАЧИ ДАННЫХ</h4>
                 <a onclick="javascript:document.getElementById('subMenuTip4').style.display='block'" href="javascript:void(0)">
                 <p>Настройка коммутаторов и маршрутизаторов</p></a>
-                <div id="subMenuTip4" class="msg" style="display:none;">                                  
+                <div id="subMenuTip4" class="msg" style="display:none;">    
+
+
+
+
+
+                  <p>отчет по лабораторной работе.</p>
+                  <p>Расчет диапазонов подсетей.</p>
+                  <p>Вариант №4</p>
+                                            <p>
+                                            <table>
+                                                <tr>
+                                                    <td>_</td><td>LAN A</td><td>LAN B</td><td>LAN C</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Количетво узлов в сети</td><td>20</td><td>201</td><td>200</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Префиксная маска</td><td>/27</td><td>/24</td><td>/24</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Адрес подсети</td><td>192.168.4.0</td><td>172.16.4.0</td><td>10.10.4.0</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Минимальный адрес</td><td>192.168.4.1</td><td>172.16.4.1</td><td>10.10.4.1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Максимальный адрес</td><td>192.168.4.30</td><td>172.16.4.254</td><td>10.10.4.254</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Broadcast</td><td>192.168.4.31</td><td>172.16.4.255</td><td>10.10.4.255</td>
+                                                </tr>
+                                            </table>
+                                            </p>
+                                            <p>Адреса устройств.</p>
+                                            <p>
+                                            <table>
+                                                <tr>
+                                                    <td>Устройство</td><td>IP</td><td>Маска</td><td>Шлюз по умолчанию</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PC0</td><td>192.168.4.29</td><td>255.255.255.224</td><td>192.168.4.1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PC1</td><td>192.168.4.30</td><td>255.255.2555.224</td><td>192.168.4.1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PC2</td><td>172.16.4.2</td><td>255.255.0.0</td><td>172.16.4.1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PC3</td><td>172.16.4.3</td><td>255.255.0.0</td><td>172.16.4.1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PC4</td><td>10.10.4.2</td><td>255.255.255.0</td><td>10.10.4.1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Router0 GigabitEthernet0/0</td><td>15.15.4.1</td><td>255.255.255.252</td><td>_</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Router0 GigabitEthernet0/1</td><td>10.10.4.1</td><td>255.255.255.0</td><td>_</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Router0 FastEthernet1/0</td><td>172.16.4.1</td><td>255.255.0.0</td><td>_</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Router1 FastEthernet0/0</td><td>192.168.4.1</td><td>255.255.255.224</td><td>_</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Router1 GigabitEthernet6/0</td><td>15.15.4.2</td><td>255.255.255.252</td><td>_</td>
+                                                </tr>
+                                                
+                                                
+                                            </table>
+                                        </p>
+
+
+                                        <p>Разместить два компьютера и коммутатор, настроить между ними адресацию.</p>
+                                            <p><img src=" png1.png" width="70%" height="30%" /></p>
+                                            <p><img src=" png2.png" width="70%" height="30%" /></p>
+                                            <p>Добавить еще коммутатор с двумя компьютерами и маршрутизаторы. Провести настройкую</p>
+                                            <p><img src="png4.png" width="100%" height="70%" /></p>
+                                            <p>Настроить статическую маршрутизацию при помощи команды: ip route [сеть назначения] [маска] [маршрут]</p>
+                                            <p>Установить банер на сетевое оборудование: banner motd [баннер]</p>           
+                <a onclick="javascript:document.getElementById('subMenuTip4').style.display='none'" href="javascript:void(0)"></li><p style="text-align: right;">Свернуть</p></a>
+                            
             </div>
             </div>
 
